@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CL4NK</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="Screen" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/jaws.js"></script>
+    <script src="js/clank_editor.js"></script>
+    <script src="js/levels.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <canvas id="board" width=800 height=400></canvas>
+      <div id="toolbar" class="row">
+        <div class="col size1of5 tool-panel">
+          <span class="tool-info" id="cell">x: 0 y: 0</span>
+        </div>
+        <div class="col size1of5 tool-panel">
+          <div class="row">
+            <p><span class="tool-button" id="state">Draw</span></p>
+          </div>
+          <div class="row">
+            <p><span class="tool-button" id="save">Save</span></p>
+          </div>
+        </div>
+        <div class="col size1of5 tool-panel">
+          <p><span class="tool-label">Platform tiles</span></p>
+          <p><span class="small-tool-button" id="prev-left-tile">&lt;</span></p>
+          <span class="tool-image" id="image-left"><img src=""></span>
+          <p><span class="small-tool-button" id="next-left-tile">&gt;</span></p>
+          <br class="clear">
+          <p><span class="small-tool-button" id="prev-right-tile">&lt;</span></p>
+          <span class="tool-image" id="image-right"><img src=""></span>
+          <p><span class="small-tool-button" id="next-right-tile">&gt;</span></p>
+        </div>
+        <div class="col size1of5 tool-panel">
+          <p><span class="tool-label">Backdrop tiles</span></p>
+          <p><span class="small-tool-button" id="fill-backdrop">Fill</span></p>
+          <br class="clear">
+          <p><span class="small-tool-button" id="prev-left-backdrop">&lt;</span></p>
+          <span class="large-tool-image" id="backdrop-tile"><img src=""></span>
+          <p><span class="small-tool-button" id="next-left-backdrop">&gt;</span></p>
+        </div>
+        <div class="lastCol size1of5 tool-panel">
+        </div>
+      </div>
+      <div id="jaws-log"></div>
+      <div class="cite"><p>Programmed using <a href="http://jawsjs.com/">the jaws library</a></p></div>
+      <div class="cite" xmlns:cc="http://creativecommons.org/ns#" about="http://www.dreade.org/nosoap/"><p>Music by <a rel="cc:attributionURL" property="cc:attributionName" href="http://www.nosoapradio.us">DeceasedSuperiorTechnician</a> / <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></p></div>      
+    </div>
+    <div id="logo"><a href="http://www.onegameamonth.com/"><img src="graphics/onegame_logo.png"></a></div>
+  </body>
+</html>
