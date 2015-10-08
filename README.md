@@ -1,7 +1,15 @@
 # Clank and the Toy Factory - OneGameAMonth - April 2013
 
 ## Overview
-2d platform game. There's not much else to say about this one.
+
+2d platform game. The player controls the titular 'Clank', a robot guard at a
+Toy Factory. In a thunderstorm, the factory is struck by lightning and the
+machinery goes haywire. Clank has to find the main generator room to switch
+everything off.
+
+The controls are simple: left and right arrow keys to move, and the up arrow key
+to jump. Pressing the up arrow key while Clank is in the air will trigger his
+jets, which will let him jump higher.
 
 ## Dependencies
 
